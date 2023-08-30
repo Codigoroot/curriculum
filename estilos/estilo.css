@@ -1,0 +1,167 @@
+	
+.texto{
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	line-height: 1.4;
+
+}
+
+#sobre_mi{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold;
+}
+
+.container{
+	margin-top: 20px;
+	padding: 15px;
+	border: 0px solid red;
+}
+
+.col-md-6, .col-md-4{
+	border: 0px solid red;
+}
+
+.encabezado{
+	border-radius: 10px;
+	background: #f2f2f2;
+	box-shadow:  5px 5px 10px #ccc7c7,
+	-5px -5px 10px #ffffff;
+	border: 0px solid yellow;
+}
+
+.nombre{
+	font-size: 50px;
+}
+
+
+.foto{
+	border-radius: 50%;
+	background: #e0e0e0;
+	box-shadow:  7px 7px 14px #bebebe,
+	-7px -7px 14px #ffffff;
+}
+
+.contacto{
+	border-radius: 20px;
+	background: #f2f2f2;
+	box-shadow:  5px 5px 10px #ccc7c7,
+	-5px -5px 10px #ffffff;
+	margin: 20px;
+	padding: 10px;
+
+}
+
+.contacto:hover{
+	transform: scale(1.1);
+}
+
+.contenedor{
+	border-radius: 10px;
+	background: #f2f2f2;
+	box-shadow:  5px 5px 10px #ccc7c7,
+	-5px -5px 10px #ffffff;
+	border: 0px solid red;
+	font-weight: bold;
+}
+
+.col-md-8{
+	border: 0px solid red;
+}
+
+.cuerpo{
+	border: 0px solid green;
+}
+
+.saludo{
+	border: 0px solid red;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+#profesion{
+	font-family: 'Fira Code', monospace;
+	border-radius: 10px;
+	background: #f2f2f2;
+	font-size: 20px;
+
+
+}
+
+.contenedor-profesion{
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+
+
+body{
+	background: #ededed;
+}
+
+
+.swiper {
+	width: 600px;
+	height: 300px;
+}
+
+
+
+
+    swiper-container {
+      width: 240px;
+      height: 320px;
+    }
+
+    swiper-slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 18px;
+      font-size: 22px;
+      font-weight: bold;
+      color: #fff;
+    }
+
+    swiper-slide:nth-child(1n) {
+      background-color: rgb(206, 17, 17);
+    }
+
+    swiper-slide:nth-child(2n) {
+      background-color: rgb(0, 140, 255);
+    }
+
+    swiper-slide:nth-child(3n) {
+      background-color: rgb(10, 184, 111);
+    }
+
+    swiper-slide:nth-child(4n) {
+      background-color: rgb(211, 122, 7);
+    }
+
+    swiper-slide:nth-child(5n) {
+      background-color: rgb(118, 163, 12);
+    }
+
+    swiper-slide:nth-child(6n) {
+      background-color: rgb(180, 10, 47);
+    }
+
+    swiper-slide:nth-child(7n) {
+      background-color: rgb(35, 99, 19);
+    }
+
+    swiper-slide:nth-child(8n) {
+      background-color: rgb(0, 68, 255);
+    }
+
+    swiper-slide:nth-child(9n) {
+      background-color: rgb(218, 12, 218);
+    }
+
+    swiper-slide:nth-child(10n) {
+      background-color: rgb(54, 94, 77);
+    }
+
