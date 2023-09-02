@@ -1,19 +1,8 @@
 	
 .texto{
 	font-family: 'Lato', sans-serif;
-	font-size: 20px;
+	font-size: 21px;
 	line-height: 1.4;
-
-}
-
-#sobre_mi{
-	font-family: 'Lato', sans-serif;
-	font-weight: bold;
-}
-
-
-#certificaciones{
-	font-family: 'Lato', sans-serif;
 	font-weight: bold;
 }
 
@@ -21,12 +10,10 @@
 ul > li{
 	font-family: 'Lato', sans-serif;
 	margin-bottom: 5px;
-	font-size: 20px;
 }
 
 .container{
 	margin-top: 20px;
-	padding: 15px;
 	border: 0px solid red;
 }
 
@@ -45,7 +32,6 @@ ul > li{
 .nombre{
 	font-size: 50px;
 }
-
 
 .foto{
 	border-radius: 50%;
@@ -69,38 +55,25 @@ ul > li{
 }
 
 .contenedor{
-	border-radius: 10px;
-	background: #f2f2f2;
-	box-shadow:  5px 5px 10px #ccc7c7,
-	-5px -5px 10px #ffffff;
+border-radius: 20px;
+background: #ededed;
+box-shadow:  5px 5px 10px #c9c9c9,
+             -5px -5px 10px #ffffff;
 	border: 0px solid red;
-	font-weight: bold;
+	padding: 2%;
+
 }
 
 .col-md-8{
 	border: 0px solid red;
 }
 
-.cuerpo{
-	border: 0px solid green;
-}
-
-.saludo{
-	border: 0px solid red;
-	font-family: 'Lato', sans-serif;
-	font-size: 20px;
-	font-weight: bold;
-}
-
-
 
 #profesion{
 	font-family: 'Fira Code', monospace;
 	border-radius: 10px;
 	background: #f2f2f2;
-	font-size: 20px;
-
-
+	font-size: 17px;
 }
 
 #curso{
@@ -109,18 +82,21 @@ ul > li{
 	font-size: 14px;
 }
 
-#proyectos, #skills{
-	font-size: 25px;
-}
-
 .contenedor-profesion{
-	padding-left: 20px;
-	padding-right: 20px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
+.contenedor{
+	border: 0px solid black;
+}
 
 
 body{
 	background: #ededed;
 }
 
+h1{
+	font-family: 'Lato', sans-serif;
+	font-weight: bold	;
+}

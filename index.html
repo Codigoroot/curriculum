@@ -24,63 +24,65 @@
 	<div class="container">
 		<div class="row mb-3 saludo ">
 			<div class="col-md-12 align-self-center">
-				<p>Hola, bienvenido a mi curriculum en línea. <img src="imagenes/hello.png" width="25px" height="25px" loading="lazy"></p> 
+				<p class="texto">Hola, bienvenido a mi curriculum en línea. <img src="imagenes/hello.png" width="25px" height="25px" loading="lazy"></p> 
 			</div>
 		</div>
 
-		<div class="row encabezado p-2">
+		<div class="row contenedor">
 			<div class="col-md-6 text-center text-md-left text-sm-center">
 				<img class="foto" src="imagenes/foto.jpg" width="150px" height="150px" loading="lazy">
 			</div>
 
-			<div class="col-md-6 text-center  align-self-center		">
+			<div class="col-md-6 text-center  align-self-center ">
 				<p class="nombre mb-1"><span id="nombre"><strong >Javier</strong> Aguilar</span></p>
 				
 				{
-					<p class="contenedor-profesion d-inline">
-						<span id="profesion"></span>
+					<p class="contenedor-profesion d-inline ">
+						<span id="profesion" class="text-sm text-md"></span>
 					</p>
 				}
 
 				
 			</div>
 		</div>
-		<div class="row cuerpo mt-4">
-			<div class="col-md-4 m-0">
-				<div class="row">
+		<div class="row cuerpo mt-4 p-1">
+			<div class="col-md-4" style="display: flex; flex-direction: column; justify-content: space-between;">
+				<div class="row mb-2">
 					<div class="col-md-12">
-						<div class="contenedor p-3">
-							<img class="mr-2" src="imagenes/about.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy">
-							<h1 class="d-inline" id="sobre_mi">Sobre mi</h1>
-
-							<p class="texto mt-3">Me gusta utilizar la tecnología para abordar problemas reales y mejorar la vida y trabajo de las personas. <br><br> En mis días libres me gusta leer artículos de tecnología, pasar tiempo con mi familia y viajar.</p>
+						<div class="contenedor">
+							<h1 class="d-inline mr-4">Sobre mí</h1>
+							<img class="ml-5" src="imagenes/about.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy">
+							<p class="texto mt-3">Soy un entusiasta de la tecnología, comprometido en resolver problemas reales y mejorar la calidad de vida de las personas. <br><br> Fuera del trabajo, disfruto leyendo sobre tecnología, pasando tiempo con mi familia y viajando.</p>
 						</div>
 					</div>
 				</div>
-				<div class="row mt-3">
+				<div class="row my-2">
 					<div class="col-md-12">
-						<div class="contenedor p-3">
-							<img class="mr-2" src="imagenes/contacto.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy">
-							<h1 class="d-inline" id="sobre_mi">Contacto</h1>
-							<ul>
+						<div class="contenedor">
+							
+							<h1 class="d-inline mr-5">Contacto</h1>
+							<img class="ml-4" src="imagenes/contacto.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy">
+
+							<ul class="texto">
 								<li> <i class="fa-solid fa-location-dot"> </i>  Aguascalientes</li>
 								<li> <i class="fa-solid fa-envelope"></i>  ja89405@gmail.com</li>
 								<li> <i class="fa-solid fa-phone"></i> 465 108 58 81</li>
-								<li> <i class="fa-solid fa-globe"></i> codigoroot.net</li>
+								<li> <i class="fa-solid fa-globe "></i> codigoroot.net</li>
 
 							</ul>
 							
 						</div>
 					</div>
 				</div>
-				<div class="row mt-3">
+				<div class="row my-1">
 					<div class="col-md-12">
-						<div class="contenedor p-3">
-							<img class="mr-2" src="imagenes/languaje.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy">
-							<h1 class="d-inline" id="sobre_mi"> Idiomas</h1>
-							<ul>
+						<div class="contenedor">
+							<h1 class="d-inline mr-5"> Idiomas</h1>
+							<img class="ml-5" src="imagenes/languaje.svg" width="70px" height="70px" loading="lazy">
+							
+							<ul class="texto">
 								<li> <i class="fa-solid fa-language"></i>  Español</li>
-								<li> <i class="fa-solid fa-language"></i>  Ingles <span style="font-size: 15px; font-style: italic ;">(Basico)</span></li>
+								<li> <i class="fa-solid fa-language"></i>  Inglés <span style="font-size: 15px; font-style: italic ;">(Básico)</span></li>
 
 							</ul>
 							
@@ -88,45 +90,53 @@
 					</div>
 				</div>				
 			</div>
-			<div class="col-md-8 mt-md-0 mt-3">
-				<div class="contenedor p-3">
-					<img src="imagenes/work.svg" type="image/svg+xml" width="90px" height="90px" class="mr-5" loading="lazy">
-					<h1 class="d-inline" id="sobre_mi">Mis empleos</h1>
+
+			<div class="col-md-8 mt-md-0 mt-3" >
+				<div class="contenedor">
+					<h1 class="d-inline mr-5">Empleos</h1>
+					<img src="imagenes/work.svg" type="image/svg+xml" width="90px" height="90px" class="ml-2 ml-sm-5" loading="lazy">
+					
 					<hr>
-					<div class="row">
+					<div class="row mt-3">
 						<div class="col-md-3  align-self-center  text-center">
 							<img src="imagenes/gtr.jpg" width="100px" height="60px" loading="lazy">
 						</div>
 
 						<div class="col-md-8 mt-2 mt-md-0">
-							<p class="texto">GTR Internacional es una empresa de Logistica, actualmente laboro aqui y mis principales actividades son desarrollo web utilizando el stack Html, Css, Js y PHP, asi como C# para desarrollo Desktop, En ambos casos utilizando bases de datos relacionales.</p>
+							<p class="texto">Formo parte del equipo de desarrollo web en GTR Internacional, aplicando tecnologías como HTML, CSS, JavaScript y PHP, además de trabajar en proyectos de desarrollo de aplicaciones de escritorio utilizando C# y bases de datos relacionales.
+							</p>
+
 						</div>
 					</div>
-					<div class="row">
+					<div class="row mt-3">
 						<div class="col-md-3  align-self-center  text-center">
 							<img src="imagenes/osp.png" width="100px" height="60px" loading="lazy">
 						</div>
 
 						<div class="col-md-8 mt-2 mt-md-0">
-							<p class="texto">Obrador San Pancho es una empresa dedicada al comercio de carnicos en Aguascalientes, mis actividades unicamente eran diseño y desarrollo del sitio web.</p>
+							<p class="texto">En Obrador San Pancho, una empresa dedicada al comercio de cárnicos en Aguascalientes, me encargué del diseño y desarrollo de su sitio web, resaltando la calidad de sus productos y servicios.</p>
 						</div>
 					</div>
-					<div class="row">
+					<div class="row mt-3">
 						<div class="col-md-3  align-self-center  text-center">
 							<img src="imagenes/inovatec.png" width="100px" height="60px" loading="lazy">
 						</div>
 
 						<div class="col-md-8 mt-2 mt-md-0">
-							<p class="texto">Inovatec es una empresa de Puebla dedicada a las telecomunicaciones, aqui desarrolle una aplicacion web para el control y reportes de mantenimiento a equipos de computo que es un servicio que ofrece la empresa.</p>
+							<p class="texto">En Inovatec, una empresa de telecomunicaciones en Puebla, lideré la creación de una aplicación web para gestionar y generar informes de mantenimiento de equipos de cómputo, fortaleciendo la eficiencia y la calidad del servicio ofrecido.</p>
 						</div>
 					</div>
 				</div>
-				<div class="contenedor p-3 mt-4" >
-					<img src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
-					<h1 class="d-inline" id="certificaciones">Mis certificaciones</h1>
-					<p class="texto mt-3 ">Analisis de Datos<br> <strong id="curso">Google Career Certificates</strong></p>
+
+
+				<div class="contenedor mt-3 mb-1" >
+					<h1 class="d-inline mr-5">Certificaciones</h1>
+					<img class="ml-5" src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
+					
+					<p class="texto mt-3 ">Análisis de Datos<br> <strong id="curso">Google Career Certificates</strong></p>
 
 				</div>	
+
 			</div>
 		</div>
 
@@ -134,29 +144,28 @@
 
 		<div class="row mt-4 ">
 			<div class="col-md-12 text-center">
-				<img src="imagenes/web_developer.svg" width="50px" height="50px" loading="lazy">
-				<h1 class="d-inline" id="proyectos">Proyectos propios</h1>
-				<div class="contenedor d-flex justify-content-between p-2 ">
-					
-					<img class="d-inline" src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
-					<img class="d-inline" src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
-					<img class="d-inline" src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
-					<img class="d-inline" src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
+				<h1 class="d-inline mr-3">Proyectos</h1>
+				<img class="ml-3" src="imagenes/web_developer.svg" width="60px" height="60px" loading="lazy">
+				<div class="contenedor d-flex justify-content-around">	
+					<img class="d-inline" src="imagenes/codigoroot.png" width="100px" height="60px" loading="lazy">
+					<img class="d-inline" src="imagenes/caja.png" width="50px" height="50px" loading="lazy">
+
 				</div>
 			</div>
 		</div>
 
 		<div class="row mt-5">
 			<div class="col-md-12 text-center">
-				<img src="imagenes/skills.svg" width="80px" height="60px" loading="lazy">
-				<h1 class="d-inline" id="skills">Skills</h1>
+				<h1 class="d-inline mr-5">Skills</h1>
+				<img class="ml-5" src="imagenes/skills.svg" width="80px" height="60px" loading="lazy">
+				
 			</div>
 		</div>
 
-		<div class="row mt-4">
+		<div class="row mt-4 mb-2">
 			<div class="col-md-12 text-center">
-				<div class="contenedor flickity-carousel p-3">
-					<div class="carousel-cell"> <img class="mr-5" src="imagenes/php.svg" width="70px" height="50px" loading="lazy"></div>
+				<div class="contenedor flickity-carousel">
+					<div class="carousel-cell"> <img class="mr-5" src="imagenes/php.svg" width="90px" height="45px" loading="lazy"></div>
 					<div class="carousel-cell"> <img class="mr-5" src="imagenes/css.svg" width="90px" height="50px" loading="lazy"></div>
 					<div class="carousel-cell"> <img class="mr-5" src="imagenes/javascript.svg" width="50px" height="50px" loading="lazy"></div>
 					<div class="carousel-cell"> <img class="mr-5" src="imagenes/html.svg" width="70px" height="50px" loading="lazy"></div>
@@ -171,28 +180,34 @@
 
 			</div>
 		</div>
+
+
+		<div class="row mt-5 justify-content-center justify-content-md-left">
+			<div class="contacto">
+				<a href="https://codigoroot.net/" target="_blank"><img class="logocontacto" src="imagenes/web.png" width="50px" height="50px" loading="lazy"></a>
+
+			</div>
+			<div class="contacto">
+				<a href="https://github.com/Codigoroot" target="_blank"><img class="logocontacto" src="imagenes/github.png" width="50px" height="50px" loading="lazy"></a>
+			</div>
+			<div class="contacto">
+				<a href="https://www.facebook.com/Codigoroot.net" target="_blank"><img class="logocontacto" src="imagenes/facebook.png" width="50px" height="50px" loading="lazy"></a>
+			</div>
+			<div class="contacto">
+				<a href="https://www.linkedin.com/in/javier-aguilar-b5568023b/" target="_blank"><img class="logocontacto" src="imagenes/linkedin.png" width="50px" height="50px" loading="lazy"></a>
+			</div>
+		</div>
+
+
+
 	</div>
 
 
 
 
 
-	<div class="row mt-5 justify-content-center justify-content-md-left">
-		<div class="contacto">
-			<a href="https://codigoroot.net/" target="_blank"><img class="logocontacto" src="imagenes/web.png" width="50px" height="50px" loading="lazy"></a>
 
-		</div>
-		<div class="contacto">
-			<a href="https://github.com/Codigoroot" target="_blank"><img class="logocontacto" src="imagenes/github.png" width="50px" height="50px" loading="lazy"></a>
-		</div>
-		<div class="contacto">
-			<a href="https://www.facebook.com/Codigoroot.net" target="_blank"><img class="logocontacto" src="imagenes/facebook.png" width="50px" height="50px" loading="lazy"></a>
-		</div>
-		<div class="contacto">
-			<a href="https://www.linkedin.com/in/javier-aguilar-b5568023b/" target="_blank"><img class="logocontacto" src="imagenes/linkedin.png" width="50px" height="50px" loading="lazy"></a>
-		</div>
-	</div>
-</div>
+
 
 
 
@@ -228,17 +243,6 @@
 
 		var typed = new Typed(targetElement, options);
 	});
-
-
-	$(document).ready(function(){
-		$('#miCarrusel').carousel({
-                interval: false, // Detiene la rotación automática
-                pause: true, // Pausa en el hover
-                wrap: true, // Vuelve al inicio al llegar al final
-                keyboard: true // Control mediante el teclado
-            });
-	});
-
 
 
 	document.addEventListener('DOMContentLoaded', function() {
