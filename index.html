@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,14 +21,14 @@
 </head>
 
 <body>	
-	<div class="container">
+	<div class="container pt-2 mb-3 mt-3">
 		<div class="row mb-3 saludo ">
 			<div class="col-md-12 align-self-center">
 				<p class="texto">Hola, bienvenido a mi curriculum en línea. <img src="imagenes/hello.png" width="25px" height="25px" loading="lazy"></p> 
 			</div>
 		</div>
 
-		<div class="row contenedor">
+		<div class="row contenedor m-1">
 			<div class="col-md-6 text-center text-md-left text-sm-center">
 				<img class="foto" src="imagenes/foto.jpg" width="150px" height="150px" loading="lazy">
 			</div>
@@ -47,7 +47,7 @@
 		</div>
 		<div class="row cuerpo mt-4 p-1">
 			<div class="col-md-4" style="display: flex; flex-direction: column; justify-content: space-between;">
-				<div class="row mb-2">
+				<div class="row mb-3">
 					<div class="col-md-12">
 						<div class="contenedor">
 							<h1 class="d-inline mr-4">Sobre mí</h1>
@@ -56,25 +56,37 @@
 						</div>
 					</div>
 				</div>
-				<div class="row my-2">
+
+				<div class="row mb-3">
 					<div class="col-md-12">
 						<div class="contenedor">
+							<h1 class="d-inline mr-4">Educación</h1>
+							<img class="ml-5" src="imagenes/graduacion.png" type="image/svg+xml" width="70px" height="70px" loading="lazy">
+							<p class="texto mt-3">Instituto Tecnólogico Superior de Teziutlán</p>
+							<h5>Ingeniería Informática</h5>
+						</div>
+					</div>
+				</div>
+
+				<div class="row mb-3">
+					<div class="col-md-12">
+						<div class="contenedor" aria-labelledby="contactoHeading">
 							
-							<h1 class="d-inline mr-5">Contacto</h1>
-							<img class="ml-4" src="imagenes/contacto.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy">
+							<h1 class="d-inline mr-5" aria-label="Información de contacto">Contacto</h1>
+							<img class="ml-4" src="imagenes/contacto.svg" type="image/svg+xml" width="70px" height="70px" loading="lazy" aria-labelledby="iconoContacto" aria-describedby="iconoContactoDesc">
 
 							<ul class="texto">
-								<li> <i class="fa-solid fa-location-dot"> </i>  Aguascalientes</li>
-								<li> <i class="fa-solid fa-envelope"></i>  ja89405@gmail.com</li>
-								<li> <i class="fa-solid fa-phone"></i> 465 108 58 81</li>
-								<li> <i class="fa-solid fa-globe "></i> codigoroot.net</li>
+								<li aria-describedby="ubicacionDesc"> <i class="fa-solid fa-location-dot"> </i>  Aguascalientes</li>
+								<li aria-describedby="emailDesc"> <i class="fa-solid fa-envelope"></i>  ja89405@gmail.com</li>
+								<li aria-describedby="telefonoDesc"> <i class="fa-solid fa-phone"></i> 465 108 58 81</li>
+								<li aria-describedby="sitioWebDesc"> <i class="fa-solid fa-globe "></i> codigoroot.net</li>
 
 							</ul>
 							
 						</div>
 					</div>
 				</div>
-				<div class="row my-1">
+				<div class="row ">
 					<div class="col-md-12">
 						<div class="contenedor">
 							<h1 class="d-inline mr-5"> Idiomas</h1>
@@ -103,7 +115,21 @@
 						</div>
 
 						<div class="col-md-8 mt-2 mt-md-0">
-							<p class="texto">Formo parte del equipo de desarrollo web en GTR Internacional, aplicando tecnologías como HTML, CSS, JavaScript y PHP, además de trabajar en proyectos de desarrollo de aplicaciones de escritorio utilizando C# y bases de datos relacionales.
+							<p class="texto">Actualmente formo parte del equipo de sistemas de GTR Internacional, donde desempeño un papel clave en el cumplimiento de las políticas y procedimientos de CTPAT <br>
+
+								Mis funciones mas destacadas son:
+
+								<ul>
+									<li>Capacitacion sobre ciberseguridad: Realice capacitaciónes para usuarios en temas de seguridad cibernética y cumplimiento de CTPAT. </li>
+									<li>Acceso a la Información y Seguridad de Datos: Asegurar que los sistemas de información y bases de datos estén protegidos adecuadamente contra accesos no autorizados.</li>
+
+									<li>Gestión de Usuarios y Acceso: Implementar políticas y controles de acceso para garantizar que solo el personal autorizado tenga acceso a sistemas.</li>
+
+									<li>Actualización y Mantenimiento de Sistemas: Desarrollo web y desktop apegado a las normas de CTPAT</li>
+								</ul>
+
+
+
 							</p>
 
 						</div>
@@ -123,7 +149,7 @@
 						</div>
 
 						<div class="col-md-8 mt-2 mt-md-0">
-							<p class="texto">En Inovatec, una empresa de telecomunicaciones en Puebla, lideré la creación de una aplicación web para gestionar y generar informes de mantenimiento de equipos de cómputo, fortaleciendo la eficiencia y la calidad del servicio ofrecido.</p>
+							<p class="texto">En Inovatec, una empresa de telecomunicaciones en Puebla, desarrolle una aplicación web para gestionar y generar informes de mantenimiento de equipos de cómputo, fortaleciendo la eficiencia y la calidad del servicio ofrecido.</p>
 						</div>
 					</div>
 				</div>
@@ -133,38 +159,29 @@
 					<h1 class="d-inline mr-5">Certificaciones</h1>
 					<img class="ml-5" src="imagenes/certificate.svg" width="50px" height="50px" loading="lazy">
 					
-					<p class="texto mt-3 ">Análisis de Datos<br> <strong id="curso">Google Career Certificates</strong></p>
+					<p class="texto mt-3 ">Análisis de Datos</p> <h5 id="curso">Google Career Certificates</h5>
 
 				</div>	
 
 			</div>
 		</div>
-
-
-
-		<div class="row mt-4 ">
-			<div class="col-md-12 text-center">
-				<h1 class="d-inline mr-3">Proyectos</h1>
-				<img class="ml-3" src="imagenes/web_developer.svg" width="60px" height="60px" loading="lazy">
+		<div class="row mt-5">
+			<div class="col-md-12 ">
+				<h1 class="d-inline mr-md-5">Mis Proyectos</h1>
+				<img src="imagenes/web_developer.svg" width="60px" height="60px" loading="lazy">	
 				<div class="contenedor d-flex justify-content-around">	
-					<img class="d-inline" src="imagenes/codigoroot.png" width="100px" height="65px" loading="lazy">
-					<img class="d-inline" src="imagenes/caja.png" width="60px" height="60px" loading="lazy">
-					<img class="d-inline" src="imagenes/curriculum.svg" width="65px" height="65px" loading="lazy">
-
+					<img class="d-inline" src="imagenes/codigoroot.png" width="80px" height="55px" loading="lazy">
+					<img class="d-inline" src="imagenes/caja.png" width="50px" height="50px" loading="lazy">
+					<img class="d-inline" src="imagenes/curriculum.svg" width="55px" height="55px" loading="lazy">
 				</div>
 			</div>
 		</div>
 
 		<div class="row mt-5">
-			<div class="col-md-12 text-center">
+			<div class="col-md-12">
 				<h1 class="d-inline mr-5">Skills</h1>
-				<img class="ml-5" src="imagenes/skills.svg" width="80px" height="60px" loading="lazy">
-				
-			</div>
-		</div>
+				<img src="imagenes/skills.svg" width="60px" height="60px" loading="lazy">
 
-		<div class="row mt-4 mb-2">
-			<div class="col-md-12 text-center">
 				<div class="contenedor flickity-carousel">
 					<div class="carousel-cell"> <img class="mr-5" src="imagenes/php.svg" width="90px" height="45px" loading="lazy"></div>
 					<div class="carousel-cell"> <img class="mr-5" src="imagenes/css.svg" width="90px" height="50px" loading="lazy"></div>
@@ -185,17 +202,17 @@
 
 		<div class="row mt-5 justify-content-center justify-content-md-left">
 			<div class="contacto">
-				<a href="https://codigoroot.net/" target="_blank"><img class="logocontacto" src="imagenes/web.png" width="50px" height="50px" loading="lazy"></a>
+				<a href="https://codigoroot.net/" target="_blank" aria-label="Mi Sitio web Codigoroot"><img class="logocontacto" src="imagenes/web.png" width="50px" height="50px" loading="lazy"></a>
 
 			</div>
 			<div class="contacto">
-				<a href="https://github.com/Codigoroot" target="_blank"><img class="logocontacto" src="imagenes/github.png" width="50px" height="50px" loading="lazy"></a>
+				<a href="https://github.com/Codigoroot" target="_blank" aria-label="Mi Github"><img class="logocontacto" src="imagenes/github.png" width="50px" height="50px" loading="lazy"></a>
 			</div>
 			<div class="contacto">
-				<a href="https://www.facebook.com/Codigoroot.net" target="_blank"><img class="logocontacto" src="imagenes/facebook.png" width="50px" height="50px" loading="lazy"></a>
+				<a href="https://www.facebook.com/Codigoroot.net" target="_blank" aria-label="Facebook de mi sitio web"><img class="logocontacto" src="imagenes/facebook.png" width="50px" height="50px" loading="lazy"></a>
 			</div>
 			<div class="contacto">
-				<a href="https://www.linkedin.com/in/javier-aguilar-b5568023b/" target="_blank"><img class="logocontacto" src="imagenes/linkedin.png" width="50px" height="50px" loading="lazy"></a>
+				<a href="https://www.linkedin.com/in/javier-aguilar-b5568023b/" target="_blank" aria-label="Mi perfil de Linkein"><img class="logocontacto" src="imagenes/linkedin.png" width="50px" height="50px" loading="lazy"></a>
 			</div>
 		</div>
 

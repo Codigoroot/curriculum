@@ -15,6 +15,10 @@ ul > li{
 .container{
 	margin-top: 20px;
 	border: 0px solid red;
+	border-radius: 20px;
+background: #ededed;
+box-shadow: inset 5px 5px 10px #c9c9c9,
+            inset -5px -5px 10px #ffffff;
 }
 
 .col-md-6, .col-md-4{
@@ -75,10 +79,10 @@ box-shadow:  5px 5px 10px #c9c9c9,
 	font-size: 17px;
 }
 
-#curso{
+h5{
 	font-family: 'Fira Code', monospace;
 	font-style: italic;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 .contenedor-profesion{
@@ -97,5 +101,5 @@ body{
 
 h1{
 	font-family: 'Lato', sans-serif;
-	font-weight: bold	;
+	font-weight: bold;
 }
